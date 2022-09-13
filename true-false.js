@@ -4,15 +4,16 @@ Truthy:
 2. Any number except 0 (+ve,-ve).
 3. Any string, including space except empty string.
 4. '0','false'.
-5. Empty Object, full object.
-6. Empty array, full array.
-
+5. {} Empty Object, full object.
+6. [] Empty Array, full array.
+7. () Empty Functions, full functions
 Falsy:
 1. false.
 2. 0.
 3. ''(empty string).
 4. Undefined.
 5. null.
+6. NaN
 */
 
 // Checking falsy: !trueCondition
